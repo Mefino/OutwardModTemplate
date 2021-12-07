@@ -15,7 +15,7 @@ namespace OutwardModTemplate
      * 2. Click on the "Application" tab
      * 3. Change your "Assembly Name" and "Default Namespace" to something unique for your mod.
      * 4. Right click the namespace "OutwardModTemplate" above and rename it to what you chose for your Namespace.
-     * 5. Right click "MyMod" below and rename it to something else for your mod.
+     * 5. Right click "MyMod" below and rename it, generally you use what you chose for your Assembly Name.
      * 6. Read the rest of the comments in this file and make changes as needed.
      */
 
@@ -38,6 +38,7 @@ namespace OutwardModTemplate
         // Awake is called when your plugin is created. Use this to set up your mod.
         internal void Awake()
         {
+            Log = this.Logger;
             Log.LogMessage($"Hello world from {NAME} {VERSION}!");
 
             // Any config settings you define should be set up like this:
