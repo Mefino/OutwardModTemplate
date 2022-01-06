@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C5450FE0-EDCF-483F-B9EA-4B1EF9D36DA7}</ProjectGuid>
     <OutputType>Library</OutputType>
+	<LangVersion>9.0</LangVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OutwardModTemplate</RootNamespace>
     <AssemblyName>OutwardModTemplate</AssemblyName>
